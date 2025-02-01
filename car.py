@@ -21,7 +21,8 @@ class Car:
         print('In the future I wanna buy',self.make,'in',self.color,'color and model is:',self.model)
     def show_price(self):
         print(f"The price of this {self.make} {self.model} is: ${self.price}.")
-        def apply_discount(self, discount_percent):
+    def apply_discount(self, discount_percent):
+        
         """Applies a discount to the car's price."""
         if self.price:
             discount_amount = (self.price * discount_percent) / 100
