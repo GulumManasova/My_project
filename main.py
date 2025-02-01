@@ -23,4 +23,14 @@ if __name__ == '__main__':
 
     car7 = Car('Rolls Royce')
     car7.show_model()
+    car10 = Car("Tesla", "White", "Model S", 79999, 2022)
+
+   
+    car10.display_info()
+
+    # Apply a 10% discount
+    car10.apply_discount(10)
+
+    # Show new price
+    print(f"Updated Price: ${car1.price}")
 
