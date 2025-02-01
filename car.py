@@ -1,7 +1,7 @@
 from xml.sax.handler import property_declaration_handler
 
 class Car:
-    def __init__(self, make=None, color=None, model=0, price=0, year=0):
+    def __init__(self, make=None, color=None, model=None, price=None, year=None):
         self.make = make
         self.color = color
         self.model = model
